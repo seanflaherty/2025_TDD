@@ -9,5 +9,11 @@ def divide_by_five(num):
         return "Buzz"
     else:
         return ""
+    
+def divide_by_three_and_five(num):
+    if num % 3 == 0 and num % 5 ==0:
+        return "FizzBuzz"
+    else:
+        return ""
 
         
