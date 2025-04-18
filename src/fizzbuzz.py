@@ -4,5 +4,10 @@ def divide_by_three(num):
     else:
         return ""
 
-#print(divide_by_three(12))
+def divide_by_five(num):
+    if num % 5 == 0:
+        return "Buzz"
+    else:
+        return ""
+
         
